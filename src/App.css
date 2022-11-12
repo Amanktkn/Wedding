@@ -1,38 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
 .App {
+  text-align: center;
+  font-family: 'Ms Madi', cursive;
+}
+
+.dayofdetails {
+  height: 12rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.havan {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  filter: blur(4px);
+  -webkit-filter: blur(2px);
+  z-index: -1;
+}
+
+.headline {
+  position: absolute;
+  z-index: 1;
+  font-size: 34px;
+  font-family: 'Ms Madi', cursive;
+  font-weight: 500;
+  color: white;
+  width: auto;
+}
+
+.count {
+  z-index: 1;
+  font-family: 'Ms Madi', cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+  width: auto;
+  text-align: center;
+  padding: 3px;
+}
+
+#brown-theme {
+  margin-top: -1px;
+  background-color: #532915;
+  height: 5rem;
+}
+
+#t-col {
+  height: 3rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.timer {
+  font-family: 'Ms Madi', cursive;
+  font-weight: 800;
+  color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subs {
+  font-family: 'Ms Madi', cursive;
+  font-weight: 800;
+  color: #ffff80;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.para1 {
+  margin-top: 2rem;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-family: 'Qwitcher Grypen', monospace;
+  text-align: center;
+  font-size: 16px;
+  width: 80%;
+}
+
+.counter {
+  z-index: 1;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Ms Madi', monospace;
+}
+
+.countdown {
+  height: 9rem;
+  width: 110%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: -1rem;
+  align-items: center;
+  background-color: #532915;
+}
+
+#intro {
+  text-align: center;
+  color: #69504A;
+  font-family: 'Qwitcher Grypen', monospace;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#mehndi {
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+}
+
+.light-brown {
+  font-family: 'Ms Madi', cursive;
   color: white;
+  background-color: #69504A;
+  height: 4rem;
+  width: 100%;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+#lite-brown {
+  font-family: 'Ms Madi', cursive;
+  color: #ffff80;
+  background-color: #69504A;
+  height: 5rem;
+  text-align: center;
+  line-height: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#lite-brown1 {
+  font-family: 'Ms Madi', cursive;
+  color: #ffff80;
+  background-color: #69504A;
+  height: 5rem;
+  text-align: center;
+  line-height: 4px;
+}
+#l-h{
+  line-height: 2rem;
+}
+.inf{
+  font-size: 0.8rem;
+  font-family: 'Ms Madi', cursive;
+}
+.ambience {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  filter: blur(4px);
+  -webkit-filter: blur(3px);
+  z-index: -1;
+}
+.bigday {
+  height: 12rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lastline{
+    position: absolute;
+    color: white;
+    width: auto;  
+    line-height: 2px;
+    text-align: center;
+}
+.ylastline{
+  color: yellow;
+  font-size: small;
+  font-weight: 400;
+}
+.fontf{
+  font-size: 28px;
+  font-family: 'Ms Madi', cursive;
+  font-weight: 500;
+
+}
+.font{
+  font-size: small;
+  font-weight: 500;
+}
+.redirect{
+  color :#ffff80;
 }
