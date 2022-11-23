@@ -3,7 +3,16 @@ import './App.css';
 import havan from './Sources/havan.jpeg';
 import ambience from './Sources/Ambience.jpeg';
 import meh from './Sources/Mehndi.jpeg';
-import song from './Sources/song.mp3';
+import c1 from './Sources/c1.jpeg';
+import c2 from './Sources/c2.jpeg';
+import c3 from './Sources/c3.jpeg';
+import c4 from './Sources/c4.jpeg';
+import c5 from './Sources/c5.jpeg';
+import c6 from './Sources/c6.jpeg';
+import c7 from './Sources/c7.jpeg';
+import c8 from './Sources/c8.png';
+import c9 from './Sources/c9.png';
+import Carousel from 'react-bootstrap/Carousel';
 
 function App() {
   const [days, setDays] = useState("");
@@ -37,10 +46,79 @@ function App() {
 
   return (
     <>
-      <div className='dayofdetails'>
-        <img src={havan} alt="havan_image" className='havan'></img>
-        <h2 className='headline'><center>Details of the <br />day</center></h2>
+      <div className="row">
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c1}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c2}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c3}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c4}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c5}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c6}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c7}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c8}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={c9}
+              alt="First slide"
+            />
+          </Carousel.Item>
+        </Carousel>
       </div>
+      {/* <div className="row">
+        <div className='dayofdetails'>
+          <img src={havan} alt="havan_image" className='havan'></img>
+          <h2 className='headline'><center>Details of the <br />day</center></h2>
+        </div>
+      </div> */}
       <div className="row" id="brown-theme">
         <h1 className='count'>Countdown</h1>
         <div className="col-3" id="t-col">
@@ -101,16 +179,18 @@ function App() {
 
         </div>
       </div>
-      <div className='bigday'>
-        <img src={ambience} alt="ambience_image" className='ambience'></img>
-        <div className='lastline'>
-          <h2 className='fontf'>See you on the big day!</h2>
-          <br></br>
-          <h2 className='ylastline'>Contact Details</h2>
-          <br></br>
-          <h2 className='font'>Sub. Maj. S.P Singh(+91 8979199529)</h2>
-          <br></br>
-          <h2 className='font'>Mr. Aman Rathore(+91 9149003980)</h2>
+      <div className="row">
+        <div className='bigday'>
+          <img src={ambience} alt="ambience_image" className='ambience' />
+          <div className='lastline'>
+            <h2 className='fontf'>See you on the big day!</h2>
+            <br></br>
+            <h2 className='ylastline'>Contact Details</h2>
+            <br></br>
+            <h2 className='font'>Sub. Maj. S.P Singh(+91 8979199529)</h2>
+            <br></br>
+            <h2 className='font'>Mr. Aman Rathore(+91 9149003980)</h2>
+          </div>
         </div>
       </div>
     </>

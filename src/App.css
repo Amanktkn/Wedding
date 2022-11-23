@@ -18,8 +18,9 @@
   width: 100%;
   position: absolute;
   height: 100%;
-  filter: blur(4px);
-  -webkit-filter: blur(2px);
+  opacity: 0.8;
+  /* filter: blur(4px); */
+  /* -webkit-filter: blur(2px); */
   z-index: -1;
 }
 
@@ -30,7 +31,7 @@
   font-family: 'Ms Madi', cursive;
   font-weight: 500;
   color: white;
-  width: auto;
+  width: 100%;
 }
 
 .count {
@@ -39,7 +40,7 @@
   font-weight: 400;
   font-size: 2rem;
   color: white;
-  width: auto;
+  width: 100%;
   text-align: center;
   padding: 3px;
 }
@@ -75,7 +76,7 @@
   font-family: 'Qwitcher Grypen', monospace;
   text-align: center;
   font-size: 16px;
-  width: 80%;
+  width: 100%;
 }
 
 .counter {
@@ -89,7 +90,7 @@
 
 .countdown {
   height: 9rem;
-  width: 110%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,7 +165,7 @@
 .lastline{
     position: absolute;
     color: white;
-    width: auto;  
+    width: 100%;  
     line-height: 2px;
     text-align: center;
 }
@@ -185,4 +186,8 @@
 }
 .redirect{
   color :#ffff80;
+}
+.d-block{
+  height: 18rem;
+  width : 100%;
 }
